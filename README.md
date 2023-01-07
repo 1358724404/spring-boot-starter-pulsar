@@ -10,7 +10,7 @@
 
 ```xml
 <dependency>
-    <groupId>com.github.manlikang</groupId>
+    <groupId>io.github.manlikang</groupId>
     <artifactId>spring-boot-starter-pulsar</artifactId>
     <version>1.0.4-RELEASE</version>
 </dependency>
