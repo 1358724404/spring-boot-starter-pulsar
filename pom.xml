@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.github.manlikang</groupId>
-    <artifactId>pulsar-spring-boot-starter</artifactId>
+    <artifactId>spring-boot-starter-pulsar</artifactId>
     <version>1.0.4-RELEASE</version>
-    <name>pulsar-spring-boot-starter</name>
+    <name>spring-boot-starter-pulsar</name>
     <description>Pulsar connect for Spring Boot</description>
 
     <licenses>

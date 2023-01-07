@@ -11,7 +11,7 @@
 ```xml
 <dependency>
     <groupId>com.github.manlikang</groupId>
-    <artifactId>pulsar-spring-boot-starter</artifactId>
+    <artifactId>spring-boot-starter-pulsar</artifactId>
     <version>1.0.4-RELEASE</version>
 </dependency>
 ```
