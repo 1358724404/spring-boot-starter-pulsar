@@ -112,7 +112,7 @@ public class ProducerCollector
       final String topicName = stringValueResolver.resolveStringValue(properties.getName());
       ProducerHolder producerHolder =
           new ProducerHolder(
-              topicName, properties.getMsgClass(), Serialization.JSON, configuration);
+              topicName, byte[].class, Serialization.JSON, configuration);
       try {
         final Producer<?> producer = buildProducer(producerHolder);
         producers.put(topicName, producer);

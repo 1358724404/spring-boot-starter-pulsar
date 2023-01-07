@@ -19,9 +19,6 @@ public class TopicProperties implements Serializable {
   /** topic名称 */
   private String name;
 
-  /** topic 消息类型 */
-  private Class<?> msgClass = byte[].class;
-
   /** 是否开启批量发送 */
   private boolean batchingEnabled = true;
 

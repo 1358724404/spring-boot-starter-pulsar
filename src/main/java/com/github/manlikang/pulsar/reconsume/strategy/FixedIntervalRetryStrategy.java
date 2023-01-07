@@ -3,6 +3,7 @@ package com.github.manlikang.pulsar.reconsume.strategy;
 
 import com.github.manlikang.pulsar.reconsume.ReconsumeStrategy;
 import com.github.manlikang.pulsar.reconsume.ReconsumeStrategyProp;
+import com.github.manlikang.pulsar.utils.PulsarMessageUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.pulsar.client.api.Consumer;
 import org.apache.pulsar.client.api.Message;
